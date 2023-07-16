@@ -23,41 +23,48 @@ margin-left: 25%;
     margin-top: 20px;
 }
 
-.fixedLeftNav {
+.openLeftNav {
     position: fixed;
     max-width: 200px;
-    width: 10%;
+    width: 100px;
     background-color: orange;
     height: 100vh;
-   
+  
 
 }
 
-
-
-.closedLeftNav{
-    background-color: orange;
+.closedLeftNav {
     position: fixed;
+    width: 20px;
+    background-color: orange;
     height: 100vh;
-    max-width: 5%;
-    content: " "
 }
 
 .hidden {
-    background-color:  black;
+    display: none
 }
-.fixedLeftNav a{
+
+.relative {
+    position: relative;
+}
+
+
+
+
+.openLeftNav a{
     text-decoration: none;
     display: block;
     margin-top: 20px;
 }
 
-.fixedLeftNav ul {
+.openLeftNav ul {
     list-style: none;
+   
     display: inline-block;
    
 }
 
-.fixedLeftNav ul li {
+.openLeftNav ul li {
     margin-top: 4px;
+    
 }
