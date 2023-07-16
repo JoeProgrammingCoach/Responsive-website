@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+   
+}
+
+.centerContent {
+    display: block;
+    text-align: center;
+}
+
+.centerText{
+margin-right: 25%;
+margin-left: 25%;
+   
+}
+
+.centerText + .centerText {
+    margin-top: 20px;
+}
+
+.newSection{
+    margin-top: 20px;
+}
+
+.fixedLeftNav {
+    position: fixed;
+    max-width: 200px;
+    width: 10%;
+}
+
+.fixedLeftNav ul {
+    list-style: none;
+    display: inline-block;
+   
+}
+
+.fixedLeftNav ul li {
+    margin-top: 4px;
+}
