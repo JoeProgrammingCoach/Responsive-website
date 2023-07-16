@@ -27,6 +27,29 @@ margin-left: 25%;
     position: fixed;
     max-width: 200px;
     width: 10%;
+    background-color: orange;
+    height: 100vh;
+   
+
+}
+
+
+
+.closedLeftNav{
+    background-color: orange;
+    position: fixed;
+    height: 100vh;
+    max-width: 5%;
+    content: " "
+}
+
+.hidden {
+    background-color:  black;
+}
+.fixedLeftNav a{
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
 }
 
 .fixedLeftNav ul {
