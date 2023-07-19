@@ -111,3 +111,19 @@ gap: 40px;
 /*.flexCols3 h3:nth-of-type(3){
     white-space: nowrap;
 } */
+
+
+
+.gridCols3{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: /*1fr 1fr 1fr */ repeat(3, 1fr);
+    gap: 40px;
+    grid-column:auto;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.gridH3 {
+    grid-column: 1/-1;
+}
