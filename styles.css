@@ -74,19 +74,21 @@ margin-left: 25%;
 
 /* to put image in right corner, simulating and ad */
 .top_Right{
-    position: absolute;
-    top: 4%;
-    right: -14%;
-    transform: scale(50%)
+    position: fixed;
+    top: 5%;
+    left: -250px;
+    transform: scale(25%);
+    z-index: -2;
 
 }
 .three_Quarters{
     margin-left: 70%;
-    width:80%;
+    width:40%;
     text-align: center;
     transform: scale(50%);
     display: block;
     float: right;
+    top: 20%;
 }
 
 
@@ -126,4 +128,31 @@ gap: 40px;
 
 .gridH3 {
     grid-column: 1/-1;
+}
+
+
+.bottomNav{
+    display:none;
+}
+
+@media(max-width: 850px) {
+   .studyingIMG{
+    transform: scale(75%);
+   display: block;
+   margin-left: -75px;
+   margin-top: -64px;
+   }
+
+   .closedLeftNav {
+
+    display: none;
+    
+   }
+
+   .bottomNav{
+    display:block;
+    background-color: orange;
+   }
+
+
 }
