@@ -154,5 +154,24 @@ gap: 40px;
     background-color: orange;
    }
 
+   .hidden{
+    display: grid;
+    list-style-type: none;  
+     text-align: center;
+     line-height: 109px;
+   
+   }
+   .hidden li a{
+    text-decoration: none;
+    color: green;
+  
+ 
 
+
+   }
+
+   .fa-ellipsis-v{
+    display: none;
+   }
+   
 }
